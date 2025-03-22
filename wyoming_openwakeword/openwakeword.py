@@ -8,7 +8,7 @@ import numpy as np
 try:
     import tflite_runtime.interpreter as tflite
 except ModuleNotFoundError:
-    import tensorflow.lite as tflite
+    import ai_edge_litert.interpreter as tflite
 from wyoming.wake import Detection
 
 from .const import (
